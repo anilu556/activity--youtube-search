@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+	width: 656px;
+}
+.buscador{
+	flex: 1;
+	height: 32px;
+	border: 1px solid rgb(204, 204, 204) ;
+	padding-left: 10px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.boton{
+	width: 65px;
+	border: 1px solid rgb(204, 204, 204) ;
+	cursor: pointer;
+	border-left: none;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.boton:hover{
+	background-color: rgb(240, 240, 240);
+}
+
+::-webkit-input-placeholder{
+	color: rgb(204, 204, 204) ;
+}
+
